@@ -1,0 +1,91 @@
+h1{
+    text-align:center;
+    text-transform: capitalize;
+    color: 325288;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: rgb(183,115,230);
+background: linear-gradient(90deg, rgba(183,115,230,1) 16%, rgba(15,236,70,1) 50%, rgba(252,176,69,1) 81%);
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    color: #2F3A8F;
+}
+table{
+    width: 100%;
+    border: 3px solid #6dfeba;
+    border-radius: 20px;
+    background-color: #d3bf09;
+}
+
+table th{
+    border: 1px solid #0e81ec;
+    border-radius: 20px;
+    padding: 15px;
+    color:rgb(79, 223, 22);
+    text-transform:uppercase;
+    font-size: 20px;
+    background-color: rgb(12, 73, 15);
+
+}
+
+table  td{
+    border: 1px solid #faebfa;
+    border-radius: 20px;
+    padding: 10px;
+    color:#141414;
+    cursor: pointer;
+}
+table td:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+
+}
+table tr{
+    border:1px solid;
+    padding: 15px;
+}
+.btn-grad {background-image: linear-gradient(to right, #ff4b1f 0%, #1fddff  51%, #ff4b1f  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+       position: absolute;
+       right:930px;
+       top: 85px;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+    .text{
+        margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: rgb(43, 41, 41);            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+      
+
+    }
+    h2{
+        text-decoration: underline;
+        text-transform: uppercase;
+        color:rgb(189, 0, 0);
+    }
